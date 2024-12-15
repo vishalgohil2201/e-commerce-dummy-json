@@ -287,7 +287,10 @@ input:focus {
     height: 75px;
     border: 1px solid #f0f0f0;
 }
-
+.product-view .left-img-box .small-img-box button {
+    background: transparent;
+    border: 1px solid #ffffff;
+}
 .product-view .left-img-box .small-img-box .s-img img {
     height: 100%;
     width: 100%;
