@@ -59,7 +59,7 @@ export const slice = createSlice({
             }
 
             // minimum TotalPrice = Price
-            if (state.data[action.payload].totalprice > state.data[action.payload].price) {
+            if (state.data[action.payload].totalprice > Math.round(state.data[action.payload].price)) {
 
                 // Total Price
                 state.data[action.payload].totalprice -= Math.round(state.data[action.payload].price);
